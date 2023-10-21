@@ -568,6 +568,8 @@ body {
   left: 0.1875rem;
   content: "";
   background-image: url("../img/done-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 0.875rem;
   height: 0.625rem;
   display: block;
