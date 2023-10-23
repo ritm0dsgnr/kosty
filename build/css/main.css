@@ -729,7 +729,7 @@ body.lock .page {
   margin-bottom: 1.25rem;
 }
 .obj__wrapper-gallery-nav-ph img {
-  widows: 100%;
+  width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
