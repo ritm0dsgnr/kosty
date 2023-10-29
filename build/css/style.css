@@ -91,6 +91,7 @@ a {
 }
 
 input {
+  border-radius: 0;
   border: none;
   -webkit-appearance: none;
 }
