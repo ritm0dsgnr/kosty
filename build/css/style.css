@@ -413,7 +413,7 @@ body.lock {
           align-items: center;
 }
 .header__wrapper-shopping-icon {
-  width: 24px;
+  min-width: 24px;
   height: 24px;
   margin-right: 10px;
   stroke: #977E4B;
@@ -2620,11 +2620,16 @@ body.lock {
             justify-content: flex-end;
   }
   .obj__wrapper-gallery-nav {
+    overflow-x: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     height: auto;
     margin-right: 0;
+  }
+  .obj__wrapper-gallery-nav::-webkit-scrollbar {
+    width: 0;
+    height: 0;
   }
   .obj__wrapper-gallery-nav-ph:not(:last-child) {
     margin-right: 20px;
