@@ -2471,8 +2471,6 @@ body.lock {
   width: -moz-fit-content;
   width: fit-content;
   border-bottom: 1px solid transparent;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
 }
 .main__footer-item-wrapper-link:hover {
   font-weight: 400;
@@ -2487,8 +2485,6 @@ body.lock {
 }
 .main__footer-item-wrapper-link.grey {
   color: #A19E9E;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
 }
 .main__footer-item-wrapper-link.grey:hover {
   color: #977E4B;
