@@ -1006,6 +1006,17 @@ body.lock {
   margin: 64px 0;
 }
 
+.form__done {
+  display: none;
+  color: #4BE291;
+}
+.form__done br {
+  display: block;
+}
+.form__done.active {
+  display: block;
+}
+
 .catalog {
   position: relative;
 }
